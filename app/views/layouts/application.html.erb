@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%=title %></title>
+	<%= render 'layouts/stylesheet' %>
+	<%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" %>
+	<%= javascript_include_tag "custom" %>
+	<%= csrf_meta_tag %>
+</head>
+<body>
+	
+<div class="container">
+	<!--page header-->
+	<%= render 'layouts/header'%>
+	
+	<!--main content-->
+	<div id="content"><%= yield %></div>
+	
+	<!--page footer-->
+	<%= render 'layouts/footer'%>
+	
+</div>
+
+</body>
+</html>
