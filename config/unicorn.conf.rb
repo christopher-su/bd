@@ -1,7 +1,7 @@
 
 APP_DIR = "/var/www/Brosis/current"
 
-worker_processes 1
+worker_processes 2
 
 
 # Help ensure your application will always spawn in the symlinked
@@ -66,7 +66,7 @@ after_fork do |server, worker|
   # drop permissions to "www:www" in the worker
   # generally there's no reason to start Unicorn as a priviledged user
   # as it is not recommended to expose Unicorn to public clients.
-  worker.user('www', 'www') if Process.euid == 0
+  worker.user('git', 'git') if Process.euid == 0
   
   # Reconnect memcached
   # Rails.cache.reset
