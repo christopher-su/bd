@@ -1,23 +1,13 @@
-#source 'http://rubygems.org'
-source 'http://ruby.taobao.org/'
-
-gem 'rails', '3.0.9'
-
-group :development do
-	gem 'rspec-rails', '2.0.1'
-end
-
-group :test do
-	gem 'rspec', '2.0.1'
-	gem 'webrat', '0.7.1'
-end
-
-if ENV["OS"] =~ /Win.*/  
+if ENV["OS"] =~ /Win.*/
+	source 'http://ruby.taobao.org/'
 	gem 'mysql'
-else  
+else
+	source 'http://rubygems.org'
 	gem 'mysql2'  
 	gem 'unicorn', '4.2.0'
 end
+
+gem 'rails', '3.0.9'
 
 gem 'net-ssh'
 
