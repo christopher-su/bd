@@ -3,7 +3,7 @@ if ENV["OS"] =~ /Win.*/
 	gem 'mysql'
 else
 	source 'http://rubygems.org'
-	gem 'mysql2'  
+	gem 'mysql2', '< 0.3'  
 	gem 'unicorn', '4.2.0'
 end
 
