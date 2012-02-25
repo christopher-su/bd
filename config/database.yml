@@ -9,7 +9,7 @@ development:
 production:
   adapter: mysql2
   database: brosis_pro
-  username: root
-  password: db_password
+  username: susan_db
+  password: db_mima
   pool: 5
   timeout: 5000
