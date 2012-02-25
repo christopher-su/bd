@@ -1,3 +1,32 @@
-<div id="center">
-	Sorry! We are in progress
-</div>
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <!--main page center pic show -->
+    <div id="gallery" class="ad-gallery">
+
+      <div class="ad-image-wrapper">
+      </div>
+
+      <div class="ad-controls">
+      </div>
+
+      <div class="ad-nav">
+        <div class="ad-thumbs">
+          <ul class="ad-thumb-list">
+            <% @advpics.each do |adv| %>
+              <li>
+                <a href="<%= image_path(adv.photo.url(:big))%>">
+                  <%= image_tag(adv.photo.url(:small),:longdesc => "http://brosisdesign.com",:alt => adv.desc ) %>
+                </a>
+              </li>
+            <% end %>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

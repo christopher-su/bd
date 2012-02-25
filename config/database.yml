@@ -1,8 +1,8 @@
 development:
   adapter: mysql
   database: brosis_dev
-  username: susan_db
-  password: db_mima
+  username: root
+  password: root
   pool: 5
   timeout: 5000
 

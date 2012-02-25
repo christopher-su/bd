@@ -1,4 +1,5 @@
 Brosis::Application.routes.draw do
+  resources :advpics
   get "pages/home"
 
   # The priority is based upon order of creation:

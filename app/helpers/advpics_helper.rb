@@ -1,0 +1,2 @@
+module AdvpicsHelper
+end

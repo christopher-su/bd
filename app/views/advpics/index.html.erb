@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+<% @advpics.each do |adv| %>
+  <%= link_to(adv) do %>
+    <%= image_tag adv.photo.url(:small) %>
+  <% end %>
+<% end %>
+
+<p>
+  <%= link_to "新增首页图片",new_advpic_path %>
+</p>
+

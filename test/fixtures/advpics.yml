@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  desc: MyText
+  serv_type: 1
+
+two:
+  desc: MyText
+  serv_type: 1

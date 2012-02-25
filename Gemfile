@@ -10,6 +10,8 @@ end
 gem 'rails', '3.0.9'
 
 gem 'net-ssh'
+gem "paperclip", "~> 2.0"
+# gem "carrierwave", "0.5.8"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title><%=title %></title>
-	<%= render 'layouts/stylesheet' %>
-	<%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" %>
-	<%= javascript_include_tag "custom" %>
-	<%= csrf_meta_tag %>
-</head>
-<body>
-	
-<div class="container">
-	<!--page header-->
-	<%= render 'layouts/header'%>
-	
-	<!--main content-->
-	<div id="content"><%= yield %></div>
-	
-	<!--page footer-->
-	<%= render 'layouts/footer'%>
-	
-</div>
+  <head>
+    <title><%=title %></title>
+    <%= render 'layouts/stylesheet' %>
+    <%= render 'layouts/javascript' %>
+    <meta name="keywords" content="Architectural rendering,Architectural renderings,3d rendering,Architectural drawing,Architectural design">
+    </meta>
+    <meta name="description" content="Architectural rendering at its finest. We are a nationally-recognized,
+          full service architectural rendering and design visualization firm. Pechara Studio Inc. works closely with
+          architects, designers, builders, developers and marketing firms to provide customized architectural rendering
+          and design visualization solutions.">
+    </meta>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
 
-</body>
+    <div class="container">
+      <!--page header-->
+      <%= render 'layouts/header'%>
+
+      <!--main content-->
+      <div id="content">
+        <div id="center">
+          <div id="center-inner">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+
+      <!--page footer-->
+      <%= render 'layouts/footer'%>
+
+    </div>
+
+  </body>
 </html>

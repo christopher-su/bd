@@ -5,70 +5,23 @@ img { border:0px;}
 a { color:#000000; text-decoration:none;}
 a:hover{color:#003366; text-decoration:underline;}
 
-.container{
-	width:100%;
-	margin:0 auto;
-}
+.container{width:100%;margin:0 auto;}
 
-#header{
-	background-color:#444;
-	height:100px;
-}
+#header{background-color:#444;height:100px;}
 
-#header .header_logo{
-	line-height:100px;
-	text-indent:20px;
-	font-size:40px;
-	width:20%;
-	color:#ffffff;
-	float:left;
-	font-family:"Impact";
-}
-#header .header_logo:hover{
-	color:#C0C0C0;
-	cursor: pointer;
-}
+#center{background: #f0f0f0 url(../images/background-main.gif) repeat -70% 0;}
+#center-inner {padding: 0 0 30px 0;background: url(../images/big-fade.png) repeat-x -70% 0;}
 
-#header .navi{
-	line-height:35px;
-	height:35px;
-}
-#header .navi li{
-	color:#AAA;
-	float:left;
-	margin-left:8px;
-	margin-top:35px;
-	border: 1px solid white;
-	background:blue;
-	border-radius:10px;
-	padding-right:10px;
-	padding-left:10px;
-	position:relative;
-}
+/*logo*/
+#header .header_logo{line-height:100px;text-indent:20px;font-size:40px;width:20%;color:#ffffff;float:left;font-family:"Impact";}
+#header .header_logo:hover{color:#C0C0C0;cursor:pointer;}
 
-#header .navi li:hover{
-	visibility:inherit;
-	color:#ffffff;
-}
-
-#header .navi li:hover ul{
-	visibility:inherit;
-}
-
-#header .navi li ul{
-	position: absolute;
-	border: 1px solid;
-	line-height:150%;
-	top:36px;
-	z-index:99;
-	visibility:hidden;
-}
-
-#header .navi li ul li{
-	float: none;
-	margin-left:0px;
-	margin-top:0px;
-	padding-right:30px;
-	padding-left:10px;
-	border-radius:5px;
-}
+/*navi*/
+#header .navi,#header .navi*{margin:0;padding:0;list-style:none;}
+#header .navi{line-height:35px;height:35px;float:left;margin-bottom:1em;}
+#header .navi li{color:#AAA;float:left;margin-left:8px;margin-top:35px;border-radius:8px;padding-right:10px;padding-left:10px;position:relative;}
+#header .navi li:hover{visibility:	inherit;color:#ffffff;background-color :#555555;cursor:pointer;}
+#header .navi li:hover ul{left:0;top:2.4em;z-index:99;border-radius:0px 10px 10px 10px;background:#555555;}
+#header .navi ul{position:absolute;top:-999em;width:15em;}
+#header .navi ul li{float:none;margin-left:0px;margin-top:0px;padding-right:30px;padding-left:10px;border-radius:0px;background-color:transparent;}
+#header .navi ul li:hover{background-color:transparent;}
