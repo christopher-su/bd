@@ -84,8 +84,8 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  jquery-rails
+  jquery-rails (~> 1.0.19)
   mysql
-  net-ssh
+  net-ssh (~> 2.3.0)
   paperclip (~> 2.0)
   rails (= 3.0.9)

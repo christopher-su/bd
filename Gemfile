@@ -8,8 +8,8 @@ else
 end
 
 gem 'rails', '3.0.9'
-gem "jquery-rails"
-gem 'net-ssh'
+gem "jquery-rails", "~> 1.0.19"
+gem "net-ssh", "~> 2.3.0"
 gem "paperclip", "~> 2.0"
 # gem "carrierwave", "0.5.8"
 
