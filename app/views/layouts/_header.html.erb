@@ -6,16 +6,22 @@
 
   <ul class="navi">
     <li>Home</li>
-    <li>Service
+    <li>Services
       <ul>
-        <li>Architectural Renderings</li>
-        <li>Architectural Drawing</li>
-        <li>Architectural Design</li>
+        <% cat_for_nav.each do |ca| %>
+          <%= link_to(ca) do %>
+            <li><%=h ca.name %></li>
+          <% end %>
+        <% end %>
       </ul>
     </li>
-    <li>Inquiry Now</li>
-    <li>Designers</li>
-    <li>About Us</li>
+    <%= link_to inquiry_index_path do %>
+            <li>Inquiry Now</li>
+    <% end %>
+    <li>Team</li>
+    <%= link_to faq_index_path do %>
+            <li>FAQ</li>
+    <% end %>
   </ul>
 
 </div>

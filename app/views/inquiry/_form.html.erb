@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="inquiry-title">
+      Inquiry Now
+      <hr style="border:1px dotted;width: 35%;position: absolute" />
+    </div>
+    <%= form_for @inquiry,:url => { :action => "create" } do |f| %>
+    <ul>
+      <li>
+        <%= f.label :name,"Full Name:" %>
+        <%= f.text_field :name %>*
+      </li>
+      <li>
+        <%= f.label :email,"Email:" %>
+        <%= f.email_field :email %>*
+      </li>
+      <li>
+        <%= f.label :phone,"Phone:" %>
+        <%= f.phone_field :phone %>*
+      </li>
+      <li>
+        <%= f.label :category_id,"Inquiring Service:" %>
+        <%= f.select :category_id, options_from_collection_for_select(cat_for_nav, "id", "name")  %>
+      </li>
+      <li>
+        <%= f.label :country,"Country:" %>
+        <%= f.text_field :country %>
+      </li>
+      <li>
+        <%= f.label :company,"Company:" %>
+        <%= f.text_field :company %>
+      </li>
+      <li>
+        <%= f.label :profession,"Profession:" %>
+        <%= f.text_field :profession %>
+      </li>
+      <li>
+        <%= f.label :desc,"Message:" %>
+        <%= f.text_area:desc%>
+      </li>
+      <!-- submit buttom -->
+      <li><%= f.submit "Make   Inquiry"%></li>
+    </ul>
+    <% end %>
+  </body>
+</html>
+

@@ -11,7 +11,7 @@ class AdvpicsController < ApplicationController
   def create
     @advpic = Advpic.new(params[:advpic])
     if @advpic.save
-      flash[:notice] = "Successfully upload images."
+      flash[:notice] = "Successfully upload image."
       redirect_to advpics_path
     else
       render :action => 'new'
@@ -20,6 +20,13 @@ class AdvpicsController < ApplicationController
 
   def show
     @advpic = Advpic.find(params[:id])
+  end
+
+  def destroy
+    @advpic = Advpic.find(params[:id])
+    @advpic.photo.destroy if @advpic.destroy
+    flash[:notice] = "Successfully destroyed image."
+    redirect_to advpics_url
   end
 
 end

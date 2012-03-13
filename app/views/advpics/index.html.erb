@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-
-<% @advpics.each do |adv| %>
-  <%= link_to(adv) do %>
-    <%= image_tag adv.photo.url(:small) %>
+<div>
+  <% @advpics.each do |adv| %>
+    <div style="position: relative;float: left;margin-right: 5px;margin-top: 3px;border: 2px slategray solid;">
+      <div>
+        <%= link_to(adv) do %>
+          <%= image_tag adv.photo.url(:small) %>
+        <% end %>
+      </div>
+      <div>
+        <%= link_to "删除",adv,:confirm => '你确定要删除该图片吗?',:method => :delete%>
+      </div>
+    </div>
   <% end %>
-<% end %>
-
-<p>
+</div>
+<div style="position: relative;top: 20px;left: 0px;clear: left;">
   <%= link_to "新增首页图片",new_advpic_path %>
-</p>
+</div>
 

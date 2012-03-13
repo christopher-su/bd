@@ -1,0 +1,35 @@
+<div style="float: left;width: 850px;height: 561px;">
+
+  <div id="cat_projects">
+
+    <% @projects.each do |pro|%>
+
+      <% pro.propics.each_with_index do |img,index|%>
+
+        <% if index == 0 %>
+
+          <a rel="<%= pro.id %>_picgroup" href="<%= image_path(img.photo.url(:original))%>" title="<%=h pro.desc %>">
+            <span><%=h pro.name %></span>
+            <img alt="" src="<%= image_path(img.photo.url(:s))%>" />
+          </a>
+
+        <% else %>
+          <a rel="<%= pro.id %>_picgroup" href="<%= image_path(img.photo.url(:original))%>" title="<%=h pro.desc %>" style="position: absolute;display:none;" >
+            <img alt="" src="<%= image_path(img.photo.url(:s))%>" style="position: absolute;"/>
+          </a>
+        <% end %>
+
+      <% end %>
+
+    <% end %>
+  </div>
+
+
+</div>
+
+<div id="cat-right">
+  <div class="cat-right-inner">
+    <h2><%= @category.name %></h2>
+    <%= @category.desc %>
+  </div>
+</div>

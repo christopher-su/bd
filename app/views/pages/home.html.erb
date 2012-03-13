@@ -17,7 +17,7 @@
             <% @advpics.each do |adv| %>
               <li>
                 <a href="<%= image_path(adv.photo.url(:big))%>">
-                  <%= image_tag(adv.photo.url(:small),:longdesc => "http://brosisdesign.com",:alt => adv.desc ) %>
+                  <%= image_tag(adv.photo.url(:small),:longdesc => "http://brosisdesign.com",:alt => h(adv.desc) ) %>
                 </a>
               </li>
             <% end %>
@@ -28,5 +28,26 @@
 
     </div>
 
+    <div id="center-right">
+      <div class="center-right-inner">
+        <h2>Focus On The Architecture</h2>
+        &nbsp;&nbsp;Brosisdesign Co. collaborates with architects, designers, developers, builders, marketing firms and
+        corporations on commercial, industrial, civic and residential projects.
+        We also work with marine, automotive, aviation, and energy industries to produce product marketing and
+        technical illustrations.<br/><br/>
+        Our diverse talents includes:<br/>
+        - Architectural renderings<br/>
+        - Technical and marketing illustrations<br/>
+        - Animations and walk-through applications<br/>
+        - Marine, Aviation and Automotive illustrations<br/>
+        - Green construction illustration<br/>
+        - Virtual tours and environments<br/>
+        - Color 3D /2D site plans, floor plans and elevations<br/>
+        - 3D visual analysis and photo overlays<br/>
+        - Web based presentations and online solutions<br/>
+        - Product and merchandising visualization<br/>
+        - A/E/C focused web design and development
+      </div>
+    </div>
   </body>
 </html>

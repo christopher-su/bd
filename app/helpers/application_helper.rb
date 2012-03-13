@@ -9,5 +9,10 @@ module ApplicationHelper
 			"#{base_title} | #{@page_title}"
 		end
 	end
+
+  # get all Category for header navi
+  def cat_for_nav
+    Category.all
+  end
 	
 end

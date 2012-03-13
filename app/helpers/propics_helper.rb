@@ -1,0 +1,2 @@
+module PropicsHelper
+end

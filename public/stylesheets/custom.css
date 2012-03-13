@@ -7,21 +7,65 @@ a:hover{color:#003366; text-decoration:underline;}
 
 .container{width:100%;margin:0 auto;}
 
-#header{background-color:#444;height:100px;}
+#header{background-color:#444;height:100px;width: 100%;}
 
-#center{background: #f0f0f0 url(../images/background-main.gif) repeat -70% 0;}
-#center-inner {padding: 0 0 30px 0;background: url(../images/big-fade.png) repeat-x -70% 0;}
+#center{background: #f0f0f0 url(../images/background-main.gif) repeat -70% 0;float: left;width: 100%;}
+#center-inner {padding: 0 0 30px 0;background: url(../images/big-fade.png) repeat-x -70% 0;float: left;width: 100%;}
 
 /*logo*/
 #header .header_logo{line-height:100px;text-indent:20px;font-size:40px;width:20%;color:#ffffff;float:left;font-family:"Impact";}
 #header .header_logo:hover{color:#C0C0C0;cursor:pointer;}
 
 /*navi*/
-#header .navi,#header .navi*{margin:0;padding:0;list-style:none;}
+#header .navi{margin:0;padding:0;list-style:none;}
 #header .navi{line-height:35px;height:35px;float:left;margin-bottom:1em;}
 #header .navi li{color:#AAA;float:left;margin-left:8px;margin-top:35px;border-radius:8px;padding-right:10px;padding-left:10px;position:relative;}
-#header .navi li:hover{visibility:	inherit;color:#ffffff;background-color :#555555;cursor:pointer;}
+#header .navi li:hover{visibility:inherit;color:#ffffff;background-color :#555555;cursor:pointer;}
 #header .navi li:hover ul{left:0;top:2.4em;z-index:99;border-radius:0px 10px 10px 10px;background:#555555;}
-#header .navi ul{position:absolute;top:-999em;width:15em;}
+#header .navi a{text-decoration: none;color:#ffffff;}
+#header .navi ul{position:absolute;top:-999em;width:17em;}
 #header .navi ul li{float:none;margin-left:0px;margin-top:0px;padding-right:30px;padding-left:10px;border-radius:0px;background-color:transparent;}
 #header .navi ul li:hover{background-color:transparent;}
+
+/*home page center right*/
+#center-right{float: right;width: 440px;}
+#center-right .center-right-inner{padding-left: 10px;color:#616161;}
+#center-right .center-right-inner h2{color: #555555}
+
+/*category page right for category info*/
+#cat-right{float: right;width: 495px;}
+#cat-right .cat-right-inner{padding-left: 10px;color:#616161;}
+#cat-right .cat-right-inner h2{color: #555555;}
+
+/*category page left for show category's projects */
+#cat_projects {margin: 20px 0 0 30px;padding: 10px 0 7px 5px;width: 100%;}
+#cat_projects a {text-decoration: none;color: #000000;float: left}
+#cat_projects a img {position: relative;border: 1px solid #f0f0f0;padding: 10px;margin: 10px 20px 10px 0;vertical-align: top;background-color: white;}
+#cat_projects a span {position: absolute;padding: 16px 12px;font-size: 18px;font-weight: bold;visibility: hidden;}
+
+/*faq*/
+.faq-li{margin: 20px 250px;border: 1px solid #DDD;font-size: 13px;padding: 4px 5px;word-break:break-all;border-radius:10px;background: rgba(0, 0, 0, 0.05);color: #616161;}
+
+/*inquiry-form*/
+#inquiry-title {margin: 20px auto auto 30px;font-size: 20px;font-weight: bold;color: #555555;}
+#inquiry-form{float: left;width: 50%;}
+#inquiry-form label{width: 150px;color: #616161;font-size: 10px;list-style: none;float: left}
+#inquiry-form ul li{list-style: none;margin-bottom: 7px;}
+#inquiry-form ul{margin: 20px auto auto 30px;}
+#inquiry-form select {width: 290px;padding: 0;margin: 0;}
+#inquiry-form textarea {width: 289px;height: 150px;}
+#inquiry-form textarea:hover{border:2px solid #555555;background-color: #f0f0f0}
+#inquiry-form input[type="text"] {width: 289px;}
+#inquiry-form input[type="text"]:hover {border:2px solid #555555;background-color: #f0f0f0}
+#inquiry-form input[type="email"] {width: 289px;}
+#inquiry-form input[type="email"]:hover {border:2px solid #555555;background-color: #f0f0f0}
+#inquiry-form input[type="tel"] {width: 289px;}
+#inquiry-form input[type="tel"]:hover {border:2px solid #555555;background-color: #f0f0f0}
+#inquiry_submit {font-size: 17px;font-weight: bold;color: #555555;width: 74%;height: 40px;border:2px solid #C0C0C0;border-radius:10px;}
+#inquiry_submit:hover {background-color: #616161;color: #ffffff;cursor: pointer;border-style: none }
+
+/*deal-process*/
+#deal-process{float: right;width: 50%}
+
+/*footer*/
+#footer{ color: #616161;clear: left;padding-top: 10px;border-top: 1px #616161 dotted;padding-bottom: 10px;padding-left: 90em;}

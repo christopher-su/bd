@@ -443,7 +443,7 @@
       );
     },
     _afterShow: function() {
-      this.gallery_info.html((this.current_index + 1) +' / '+ this.images.length);
+      //this.gallery_info.html((this.current_index + 1) +' / '+ this.images.length);
       if(!this.settings.cycle) {
         // Needed for IE
         this.prev_link.show().css('height', this.image_wrapper_height);
