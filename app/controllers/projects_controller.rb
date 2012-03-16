@@ -1,3 +1,8 @@
+=begin
+Admin Controller
+For Project Administrating
+=end
+
 class ProjectsController < ApplicationController
 
   def index

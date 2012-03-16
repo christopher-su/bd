@@ -1,3 +1,7 @@
+=begin
+User Controller
+For Inquiry Page
+=end
 class InquiryController < ApplicationController
 
   def index
@@ -9,6 +13,12 @@ class InquiryController < ApplicationController
     if @inquiry.save
       flash[:notice] = "Successfully make inquiry ! "
       redirect_to inquiry_index_path
+
+      Thread.new{
+        InquiryMailer.have_new_inquiry(@inquiry).deliver
+        InquiryMailer.inquiry_comfirm(@inquiry).deliver
+      }
+
     else
       render :action => 'index'
     end

@@ -1,6 +1,10 @@
+=begin
+User Controller
+For Home Page
+=end
+
 class PagesController < ApplicationController
 	
-  #Action for home.html.erb
   def home
   	@page_title = "Home"
     @advpics = Advpic.all

@@ -1,3 +1,8 @@
+=begin
+User Controller
+For Each Category Page
+=end
+
 class CategoriesController < ApplicationController
 
   def index

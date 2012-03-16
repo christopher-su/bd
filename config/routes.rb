@@ -8,6 +8,7 @@ Brosis::Application.routes.draw do
 
   get "pages/home"
   get "faq/index"
+  get "team/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

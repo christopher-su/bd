@@ -1,3 +1,8 @@
+=begin
+Admin Controller
+For Home Page Adv Pictures Administrating
+=end
+
 class AdvpicsController < ApplicationController
 
   def index
