@@ -9,22 +9,21 @@
       <p id="add_propics_file_p">
         <%= file_field_tag 'project[propics_attributes][][photo]', :multiple => true %>
       </p>
-      <a id="add_propics_link" style="cursor: pointer;color: #444;" >增加图片</a>
+      <a id="add_propics_link" style="cursor: pointer;color: #444;" >再传一张</a>
       <h5 style="color:#006400">(提示：图片大小不能超过2M)</h5>
       <hr style= "border:1px dashed "/>
 
       <!-- set project name -->
       <p>
-        <%= form.label :name, "产品名称：" %>
+        <%= form.label :name, "项目名称：" %>
         <%= form.text_field :name %>
       <hr style= "border:1px dashed "/>
     </p>
 
     <!-- set project description -->
     <p>
-      <%= form.label :desc, "描述：" %>
+      <%= form.label :desc, "项目描述：" %>
       <%= form.text_area :desc %>
-    <h5 style="color:#006400">(提示：该描述内容会在首页的图片下方出现,描述内容不应过长,注意输入文字时,不要输入中文的标点符号,内容最好原创,否则会降低网站质量,不利于网站排名)</h5>
   </p>
   <hr style= "border:1px dashed "/>
 

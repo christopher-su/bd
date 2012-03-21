@@ -6,9 +6,12 @@ For Home Page
 class PagesController < ApplicationController
 	
   def home
-  	@page_title = "Home"
     @advpics = Advpic.all
     @categories = Category.all
+  end
+
+  def admin
+    
   end
 
 end

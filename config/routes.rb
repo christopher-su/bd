@@ -7,6 +7,7 @@ Brosis::Application.routes.draw do
   end
 
   get "pages/home"
+  get "pages/admin"
   get "faq/index"
   get "team/index"
 

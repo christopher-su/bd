@@ -39,8 +39,9 @@ a:hover{color:#003366; text-decoration:underline;}
 
 /*category page left for show category's projects */
 #cat_projects {margin: 20px 0 0 30px;padding: 10px 0 7px 5px;width: 100%;}
-#cat_projects a {text-decoration: none;color: #000000;float: left}
-#cat_projects a img {position: relative;border: 1px solid #f0f0f0;padding: 10px;margin: 10px 20px 10px 0;vertical-align: top;background-color: white;}
+#cat_projects a {padding: 0 15px 16px 0;margin-right: 30px;margin-bottom: 20px;text-decoration: none;color: #000000;float: left;background: url(../images/shadowAlpha1.png) no-repeat bottom right;}
+#cat_projects .singlepic{padding: 0 11px 12px 0;margin-right: 30px;margin-bottom: 20px;text-decoration: none;color: #000000;float: left;background: url(../images/shadowAlpha2.png) no-repeat bottom right;}
+#cat_projects a img {position: relative;vertical-align: top;}
 #cat_projects a span {position: absolute;padding: 16px 12px;font-size: 18px;font-weight: bold;visibility: hidden;}
 
 /*faq*/
@@ -89,7 +90,8 @@ ul.member-list li:nth-child(11n) a { position: relative; left: -5px; top: 3px; }
 ul.member-list li.messy a { margin-top: -375px; margin-left: 160px; -webkit-transform: rotate(-5deg); -moz-transform: rotate(-5deg); }
 ul.member-list li a:hover { -webkit-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); -moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); position: relative; z-index: 5; }
 
-
+/*error message*/
+div.field_with_errors input{background: orangered}
 
 /*footer*/
 #footer{ color: #616161;clear: left;padding-top: 10px;border-top: 1px #616161 dotted;padding-bottom: 10px;padding-left: 90em;}
