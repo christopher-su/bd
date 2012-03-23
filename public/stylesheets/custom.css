@@ -28,9 +28,10 @@ a:hover{color:#003366; text-decoration:underline;}
 #header .navi ul li:hover{background-color:transparent;}
 
 /*home page center right*/
-#center-right{float: right;width: 440px;}
-#center-right .center-right-inner{padding-left: 10px;color:#616161;}
-#center-right .center-right-inner h2{color: #555555}
+div#center-right{float: right;width: 440px;}
+div#center-right .center-right-inner{padding-left: 10px;color:#616161;}
+div#center-right .center-right-inner h2{color: #555555}
+div#center-right .center-right-inner p{font-size: 13px;margin-top: 10px;}
 
 /*category page right for category info*/
 #cat-right{float: right;width: 495px;}
