@@ -1,5 +1,47 @@
 <!DOCTYPE html>
-
-<div style="position: relative;top: 20px;left: 0px;clear: left;">
+<html>
+<head>
+  <%= stylesheet_link_tag 'gl_page', :media => 'screen' %>
+</head>
+<body>
+<div>
   <%= link_to "新增项目",new_project_path %>
 </div>
+
+<hr/>
+<div>
+  <table>
+    <tr class="pro_man_title_tr">
+      <td></td>
+      <td>Project Name</td>
+      <td>Project Description</td>
+      <td>Create Date</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <% @projects.each do |pro| %>
+        <tr class="pro_man_content_tr">
+          <td>
+            <% pro.propics.each_with_index do |img,index| %>
+                <% if index == 0 %>
+                    <%= image_tag image_path(img.photo.url(:s)), :size => "100x50"  %>
+                <% end %>
+            <% end %>
+          </td>
+          <td>
+            <%= pro.name %>
+          </td>
+          <td><%= pro.desc %></td>
+          <td><%= pro.created_at %></td>
+          <td><%= link_to "Delete" %></td>
+          <td><%= link_to "Edit" %></td>
+          <td></td>
+        </tr>
+    <% end %>
+  </table>
+
+</div>
+</body>
+</html>
+
+

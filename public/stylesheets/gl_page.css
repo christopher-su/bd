@@ -1,3 +1,7 @@
 tr.inq_tab_title td {font-weight: bold;font-size: 14px;}
 tr.inq_tab_content td a{color: #006400;text-decoration: underline}
 tr.inq_tab_content:hover{background-color: #C0C0C0}
+
+tr.pro_man_title_tr td {font-weight: bold;font-size: 14px;}
+tr.pro_man_content_tr td a{color: #006400;text-decoration: underline}
+tr.pro_man_content_tr:hover{background-color: #C0C0C0}
