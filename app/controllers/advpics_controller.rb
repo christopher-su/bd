@@ -29,9 +29,10 @@ class AdvpicsController < ApplicationController
 
   def destroy
     @advpic = Advpic.find(params[:id])
-    @advpic.photo.destroy if @advpic.destroy
-    flash[:notice] = "Successfully destroyed image."
-    redirect_to advpics_url
+    if @advpic.destroy
+      flash[:notice] = "Successfully destroyed image."
+      redirect_to advpics_url
+    end
   end
 
 end

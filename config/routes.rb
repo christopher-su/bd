@@ -2,14 +2,9 @@ Brosis::Application.routes.draw do
 
   resources :advpics,:categories,:projects
 
-  namespace :admin do
-    resources :category
-  end
-
   resources :inquiry,:except => [:new,:update,:edit] do
       get :man_inquiry, :on => :collection
   end
-
 
   get "pages/home"
   get "pages/admin"

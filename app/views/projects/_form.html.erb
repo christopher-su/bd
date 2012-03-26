@@ -5,12 +5,26 @@
   </head>
   <body>
     <%= form_for @project, :html => { :multipart => true } do |form| %>
-      <!-- choose image -->
-      <p id="add_propics_file_p">
+      <!-- choose image  -->
+      <% unless @project.propics.empty? %>
+        <% @project.propics.each_with_index do |pro,index| %>
+            <div style="float: left;margin-top: 10px;">
+              <%= image_tag image_path(pro.photo.url(:s)), :size => "100x50"  %>
+              <%= check_box_tag "project[pics][#{index}]",pro.id %>
+            </div>
+        <% end %>
+        <h5 style="color:#006400;clear: left;">(提示：可勾选需要从本项目中移除的图片)</h5>
+        <hr style= "border:1px dashed "/>
+      <% end %>
+
+
+      <p id="add_propics_file_p" style="clear: left;">
+        <%= form.label "上传项目图片：" %>
         <%= file_field_tag 'project[propics_attributes][][photo]', :multiple => true %>
       </p>
+
       <a id="add_propics_link" style="cursor: pointer;color: #444;" >再传一张</a>
-      <h5 style="color:#006400">(提示：图片大小不能超过2M)</h5>
+      <h5 style="color:#006400">(提示：图片大小不能超过2M,多张图片不能使用相同文件名)</h5>
       <hr style= "border:1px dashed "/>
 
       <!-- set project name -->

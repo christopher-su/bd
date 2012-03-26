@@ -1,1 +1,23 @@
+<div>
+  <%= link_to "返回",pages_admin_path %> | <%= link_to "增加类别", new_category_path %>
+</div>
+<hr />
+<div>
+  <table>
+    <tr>
+      <td>类别名称</td>
+      <td></td>
+      <td></td>
+    </tr>
+  <% @categories.each do |ca| %>
+
+          <tr>
+            <td><%=h ca.name %></td>
+            <td><%= link_to "修改",edit_category_path(ca) %></td>
+            <td><%= link_to "删除",ca,:confirm => '确定删除吗?', :method => :delete %></td>
+          </tr>
+
+  <% end %>
+  </table>
+</div>
 
