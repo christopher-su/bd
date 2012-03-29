@@ -17,7 +17,7 @@
             <% @advpics.each do |adv| %>
               <li>
                 <a href="<%= image_path(adv.photo.url(:big))%>">
-                  <%= image_tag(adv.photo.url(:small),:longdesc => "http://brosisdesign.com",:alt => h(adv.desc) ) %>
+                  <%= image_tag(adv.photo.url(:small),:longdesc => "http://brosisdesign.com/categories/#{adv.serv_type}",:alt => h(adv.desc) ) %>
                 </a>
               </li>
             <% end %>

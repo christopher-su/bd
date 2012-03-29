@@ -1,5 +1,5 @@
 class Advpic < ActiveRecord::Base
-  attr_accessible :photo,:desc
+  attr_accessible :photo,:desc,:serv_type
   
   has_attached_file :photo,:styles => { :big => "900x450>" ,:small => "90x60>" },
     :url => "/upfile/advpic/:id:style:basename.:extension",

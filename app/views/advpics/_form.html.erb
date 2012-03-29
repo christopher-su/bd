@@ -14,14 +14,19 @@
         <%= form.label :photo, "选择首页广告图片：" %>
         <%= form.file_field :photo %>
       <h5 style="color:#006400">(提示：图片大小不能超过2M,首页图片尺寸为 900*450,请在上传图片前选用图片处理软件按照此比例处理图片后再上传，以达到好的展示效果)</h5>
-    </p>
+      </p>
     <hr style= "border:1px dashed "/>
     <p>
       <%= form.label :desc, "描述：" %>
       <%= form.text_area :desc %>
     <h5 style="color:#006400">(提示：该描述内容会在首页的图片下方出现,描述内容不应过长,注意输入文字时,不要输入中文的标点符号,内容最好原创,否则会降低网站质量,不利于网站排名)</h5>
-  </p>
+    </p>
   <hr style= "border:1px dashed "/>
+  <p>
+    <%= form.label :serv_type,"广告图片所属类别:" %>
+    <%= form.select :serv_type, options_from_collection_for_select(cat_for_nav, "id", "name")  %>
+  </p>
+      <hr style= "border:1px dashed "/>
   <p>
     <%= form.submit "提交" %>
   </p>
