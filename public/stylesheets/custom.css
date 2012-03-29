@@ -43,7 +43,7 @@ div#center-right .center-right-inner p{font-size: 13px;margin-top: 10px;}
 #cat_projects a {padding: 0 15px 16px 0;margin-right: 30px;margin-bottom: 20px;text-decoration: none;color: #000000;float: left;background: url(../images/shadowAlpha1.png) no-repeat bottom right;}
 #cat_projects .singlepic{padding: 0 11px 12px 0;margin-right: 30px;margin-bottom: 20px;text-decoration: none;color: #000000;float: left;background: url(../images/shadowAlpha2.png) no-repeat bottom right;}
 #cat_projects a img {position: relative;vertical-align: top;}
-#cat_projects a span {position: absolute;padding: 16px 12px;font-size: 18px;font-weight: bold;visibility: hidden;}
+#cat_projects a span {position: absolute;padding: 16px 12px;font-size: 18px;font-weight: bold;visibility: hidden;width: 180px;height: 150px;}
 
 /*faq*/
 .faq-li{margin: 20px 250px;border: 1px solid #DDD;font-size: 13px;padding: 4px 5px;word-break:break-all;border-radius:10px;background: rgba(0, 0, 0, 0.05);color: #616161;}
