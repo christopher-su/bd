@@ -1,5 +1,5 @@
 class TeamMembersController < ApplicationController
-
+  skip_before_filter :authorize
   def index
     @teamMembers = TeamMember.all
   end
