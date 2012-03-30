@@ -1,10 +1,18 @@
 Brosis::Application.routes.draw do
 
+  controller :sessions do
+    get "member_pass" => :new
+    post "member_pass" => :create
+    delete "member_out" => :destroy
+  end
+
   resources :advpics,:categories,:projects
 
   resources :inquiry,:except => [:new,:update,:edit] do
       get :man_inquiry, :on => :collection
   end
+
+  resources :team_members,:except => [:show,:edit,:update]
 
   get "pages/home"
   get "pages/admin"

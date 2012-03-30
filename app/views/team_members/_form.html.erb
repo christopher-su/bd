@@ -1,0 +1,13 @@
+<div>
+  <%= form_for @teamMember do |t| %>
+    <p>
+      <%= t.label :name,"用户名：" %>
+      <%= t.text_field :name %>
+    </p>
+    <p>
+      <%= t.label :password,"密码" %>
+      <%= t.password_field :password %>
+    </p>
+    <p><%= t.submit %></p>
+  <% end %>
+</div>

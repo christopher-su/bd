@@ -4,6 +4,8 @@ For Inquiry Page
 =end
 class InquiryController < ApplicationController
 
+  skip_before_filter :authorize,:only => [:index,:create]
+
   def index
     @inquiry = Inquiry.new
   end
