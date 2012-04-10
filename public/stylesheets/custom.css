@@ -71,7 +71,7 @@ div#center-right .center-right-inner p{font-size: 13px;margin-top: 10px;}
 #process-title{margin: 20px auto auto 30px;font-size: 20px;font-weight: bold;color: #555555;}
 #deal-process .process-step{margin-top: 30px;clear: both}
 #deal-process .process-step .step-img{float: left}
-#deal-process .process-step .step-cotent{width:80%;padding-top:3px;position: relative;height: 100%;line-height: 100%;color: #616161}
+#deal-process .process-step .step-cotent{width:80%;padding-top:3px;position: relative;height: 100%;line-height: 100%;color:#999}
 #deal-process .process-step .step-cotent h2{margin-bottom: 5px;margin-top: 5px;color: #616161;border: none;}
 
 /*team page*/

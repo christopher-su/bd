@@ -29,7 +29,7 @@
       <file leaf-file-name="_process.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/inquiry/_process.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="-9.5">
+            <state line="14" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="64" selection-start="4596" selection-end="4596" vertical-scroll-proportion="0.33391917">
+            <state line="87" column="73" selection-start="5856" selection-end="5856" vertical-scroll-proportion="0.46572936">
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/controllers/team_members_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/faq/index.html.erb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
         <option value="$PROJECT_DIR$/app/views/inquiry/_process.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
       </list>
     </option>
   </component>
@@ -114,16 +114,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Brosis" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -202,16 +192,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -452,7 +452,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33561644" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35388127" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -547,77 +547,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/team_members_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="52" selection-end="52" vertical-scroll-proportion="0.033868093">
-          <folding />
-        </state>
+        <state line="1" column="2" selection-start="52" selection-end="52" vertical-scroll-proportion="0.033868093" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="233" selection-end="233" vertical-scroll-proportion="0.4741533">
-          <folding />
-        </state>
+        <state line="14" column="16" selection-start="233" selection-end="233" vertical-scroll-proportion="0.4741533" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/team_members/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="103" selection-end="103" vertical-scroll-proportion="0.03564728">
-          <folding />
-        </state>
+        <state line="5" column="9" selection-start="103" selection-end="103" vertical-scroll-proportion="0.03564728" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/team_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="0.19587629">
-          <folding />
-        </state>
+        <state line="6" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="0.19587629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="90" selection-end="90" vertical-scroll-proportion="0.03264605">
-          <folding />
-        </state>
+        <state line="3" column="28" selection-start="90" selection-end="90" vertical-scroll-proportion="0.03264605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="186" selection-end="220" vertical-scroll-proportion="0.22852233">
-          <folding />
-        </state>
+        <state line="7" column="33" selection-start="186" selection-end="220" vertical-scroll-proportion="0.22852233" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="544" selection-end="544" vertical-scroll-proportion="0.62274367">
-          <folding />
-        </state>
+        <state line="19" column="23" selection-start="544" selection-end="544" vertical-scroll-proportion="0.62274367" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/team_member.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="449" selection-end="449" vertical-scroll-proportion="0.03264605">
-          <folding />
-        </state>
+        <state line="12" column="20" selection-start="449" selection-end="449" vertical-scroll-proportion="0.03264605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/faq/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="424" selection-end="424" vertical-scroll-proportion="0.20577617">
-          <folding />
-        </state>
+        <state line="6" column="51" selection-start="424" selection-end="424" vertical-scroll-proportion="0.20577617" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/inquiry/_process.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="-9.5">
-          <folding />
-        </state>
+        <state line="14" column="17" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="64" selection-start="4596" selection-end="4596" vertical-scroll-proportion="0.33391917">
+        <state line="87" column="73" selection-start="5856" selection-end="5856" vertical-scroll-proportion="0.46572936">
           <folding />
         </state>
       </provider>
