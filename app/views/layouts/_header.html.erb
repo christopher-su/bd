@@ -5,7 +5,9 @@
   </div>
 
   <ul class="navi">
-    <li>Home</li>
+    <%= link_to root_path do %>
+        <li>Home</li>
+    <% end %>
     <li>Services
       <ul>
         <% cat_for_nav.each do |ca| %>
