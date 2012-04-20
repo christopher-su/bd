@@ -95,4 +95,5 @@ ul.member-list li a:hover { -webkit-transform: scale(1.25); -moz-transform: scal
 div.field_with_errors input{background: orangered}
 
 /*footer*/
-#footer{ color: #616161;clear: left;padding-top: 10px;border-top: 1px #616161 dotted;padding-bottom: 10px;padding-left: 90em;}
+#footer{ color: #616161;clear: left;padding-top: 10px;border-top: 1px #616161 dotted;padding-bottom: 10px;padding-left: 70em;}
+#footer a{color: #616161;}
