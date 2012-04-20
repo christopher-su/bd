@@ -17,6 +17,7 @@ a:hover{color:#003366; text-decoration:underline;}
 #header .header_logo:hover{color:#C0C0C0;cursor:pointer;}
 
 /*navi*/
+#header .inNow{background-color:#c42804;color: #f6f4f4;}
 #header .navi{margin:0;padding:0;list-style:none;}
 #header .navi{line-height:35px;height:35px;float:left;margin-bottom:1em;}
 #header .navi li{color:#AAA;float:left;margin-left:8px;margin-top:35px;border-radius:8px;padding-right:10px;padding-left:10px;position:relative;}
@@ -63,7 +64,7 @@ div#center-right .center-right-inner p{font-size: 13px;margin-top: 10px;}
 #inquiry-form input[type="email"]:hover {border:2px solid #555555;background-color: #f0f0f0}
 #inquiry-form input[type="tel"] {width: 289px; height: 18px;}
 #inquiry-form input[type="tel"]:hover {border:2px solid #555555;background-color: #f0f0f0}
-#inquiry_submit {font-size: 17px;font-weight: bold;color: #555555;width: 74%;height: 40px;border:2px solid #C0C0C0;border-radius:10px;}
+#inquiry_submit {margin-top:30px;font-size: 17px;font-weight: bold;color: #555555;width: 74%;height: 40px;border:2px solid #C0C0C0;border-radius:10px;}
 #inquiry_submit:hover {background-color: #616161;color: #ffffff;cursor: pointer;border-style: none }
 
 /*deal-process*/

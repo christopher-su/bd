@@ -3,7 +3,7 @@ class InquiryMailer < ActionMailer::Base
 
   def have_new_inquiry(inquiry)
     @inquiry = inquiry
-    mail(:to => "BrosisDesign.info@gmail.com,BrosisDesign.sales@gmail.com,Brosisdesign.design@gmail.com,Brosisdesign.service@gmail.com", :subject => "Brosisdesgin have new inquiry")
+    mail(:to => "BrosisDesign.sales@gmail.com",:cc => "BrosisDesign.info@gmail.com,Brosisdesign.design@gmail.com,Brosisdesign.service@gmail.com" ,:subject => "Brosisdesgin have new inquiry")
   end
 
   def inquiry_comfirm(inquiry)
