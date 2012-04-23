@@ -66,7 +66,7 @@ div#center-down .down-right{float: right;width: 280px;}
 #inquiry-form input[type="tel"] {width: 289px; height: 18px;}
 #inquiry-form input[type="tel"]:hover {border:2px solid #555555;background-color: #f0f0f0}
 #inquiry_submit {margin-top:30px;font-size: 17px;font-weight: bold;color: #555555;width: 88%;height: 40px;border:2px solid #C0C0C0;border-radius:10px;}
-#inquiry_submit:hover {background-color: #616161;color: #ffffff;cursor: pointer;border-style: none }
+#inquiry_submit:hover {background-color: #616161;color: #ffffff;cursor: pointer;border: 2px solid #616161 }
 
 /*deal-process*/
 #deal-process{float: right;width: 50%}
@@ -95,6 +95,17 @@ ul.member-list li a:hover { -webkit-transform: scale(1.25); -moz-transform: scal
 
 /*error message*/
 div.field_with_errors input{background: orangered}
+
+/*success make inquiry*/
+div.suc-main{margin: 100px auto;height: 290px;}
+div.suc-img{float: left;}
+div.suc-content{float: left;margin-left: 50px;}
+div.suc-content p{color: #616161;margin-top: 5px;}
+div.suc-content h2{color: #616161;margin: 0 auto;border: none}
+p.suc-back{border: 2px solid #C0C0C0;border-radius: 10px;width: 120px;height: 40px;}
+p.suc-back:hover{background-color: #616161;cursor: pointer;border: 2px solid #616161}
+p.suc-back:hover a{color: #ffffff;}
+p.suc-back a{text-decoration: none;font-size: 15px;line-height: 40px;margin-left: 20px;width: 120px;height: 40px;font-weight: bold;color: #555555;}
 
 /*footer*/
 #footer{background-color: #000000; color: #616161;clear: left;height: 30px;width: 100%;}

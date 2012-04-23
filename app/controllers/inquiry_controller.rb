@@ -4,7 +4,7 @@ For Inquiry Page
 =end
 class InquiryController < ApplicationController
 
-  skip_before_filter :authorize,:only => [:index,:create]
+  skip_before_filter :authorize,:only => [:index,:create,:suc]
 
   def index
     @page_title = "Inquiry Now"
@@ -14,13 +14,13 @@ class InquiryController < ApplicationController
   def create
     @inquiry = Inquiry.new(params[:inquiry])
     if @inquiry.save
-      flash[:notice] = 'Successfully make inquiry ! '
-      redirect_to inquiry_index_path
+      #redirect_to inquiry_index_path
+      redirect_to suc_inquiry_index_path
 
-      Thread.new{
-        InquiryMailer.have_new_inquiry(@inquiry).deliver
-        InquiryMailer.inquiry_comfirm(@inquiry).deliver
-      }
+    #  Thread.new{
+    #    InquiryMailer.have_new_inquiry(@inquiry).deliver
+    #    InquiryMailer.inquiry_comfirm(@inquiry).deliver
+    #  }
 
     else
       render :action => 'index'
@@ -40,6 +40,10 @@ class InquiryController < ApplicationController
 
   def man_inquiry
     @inquiries = Inquiry.all
+  end
+
+  def suc
+
   end
 
 end

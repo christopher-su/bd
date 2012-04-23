@@ -10,6 +10,7 @@ Brosis::Application.routes.draw do
 
   resources :inquiry,:except => [:new,:update,:edit] do
       get :man_inquiry, :on => :collection
+      get :suc,:on => :collection
   end
 
   resources :team_members,:except => [:show,:edit,:update]
