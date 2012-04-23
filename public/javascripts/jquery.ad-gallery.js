@@ -6,7 +6,7 @@
                      thumb_opacity: 0.7,
                      animate_first_image: false,
                      animation_speed: 400,
-                     width: 900,
+                     width: 940,
                      height: 450,
                      display_next_and_prev: true,
                      display_back_and_forward: true,
