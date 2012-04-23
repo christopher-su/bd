@@ -7,6 +7,7 @@ class InquiryController < ApplicationController
   skip_before_filter :authorize,:only => [:index,:create]
 
   def index
+    @page_title = "Inquiry Now"
     @inquiry = Inquiry.new
   end
 

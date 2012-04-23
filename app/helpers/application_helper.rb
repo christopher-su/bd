@@ -6,7 +6,7 @@ module ApplicationHelper
 		if @page_title.nil?			  # varible @page_title define each page's title
 			base_title
 		else
-			"#{base_title} | #{@page_title}"
+			"#{@page_title} | #{base_title}"
 		end
 	end
 

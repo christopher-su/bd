@@ -12,6 +12,7 @@ class CategoriesController < ApplicationController
 
   def show
     @category = Category.find(params[:id])
+    @page_title = @category.name
     @projects = @category.projects
   end
 

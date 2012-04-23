@@ -6,6 +6,7 @@ For FAQ Page
 class FaqController < ApplicationController
   skip_before_filter :authorize
   def index
+    @page_title = "FAQ"
     @faqs = Faq.all
   end
 
