@@ -99,5 +99,5 @@ div.field_with_errors input{background: orangered}
 /*footer*/
 #footer{background-color: #000000; color: #616161;clear: left;height: 30px;width: 100%;}
 #footer a{color: #616161;}
-div.footer-content{margin: 0 auto; width: 940px;}
+div.footer-content{margin: 0 auto; width: 940px;line-height: 30px;}
 div.footer-content p{float: right}
