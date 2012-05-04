@@ -2,7 +2,7 @@
 <html>
   <body>
     <div id="inquiry-title">
-      Inquiry Form
+      Get Free Quote
     </div>
     <%= form_for @inquiry,:url => { :action => "create" } do |f| %>
       <ul>
@@ -35,7 +35,7 @@
           <%= f.text_area:desc%>
         </li>
         <!-- submit buttom -->
-        <li><%= f.submit "Make   Inquiry"%></li>
+        <li><%= f.submit "Get a Quote"%></li>
       </ul>
     <% end %>
   </body>
