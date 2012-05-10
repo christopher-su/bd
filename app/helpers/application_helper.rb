@@ -2,7 +2,7 @@ module ApplicationHelper
 	
 	# define the views's title
 	def title
-		base_title = "BrosisDesign | Focus On Architectural Renderings"   # title for default
+		base_title = "Professional 3D Architectural Rendering Services At Competitive Prices"   # title for default
 		if @page_title.nil?			  # varible @page_title define each page's title
 			base_title
 		else
