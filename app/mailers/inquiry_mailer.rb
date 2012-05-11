@@ -8,7 +8,7 @@ class InquiryMailer < ActionMailer::Base
 
   def inquiry_comfirm(inquiry)
     @inquiry = inquiry
-    mail(:to => inquiry.email, :subject => "We have received your inquiry")
+    mail(:to => inquiry.email, :subject => "Thanks for your inquiry")
   end
 
 end
