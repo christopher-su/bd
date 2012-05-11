@@ -17,10 +17,10 @@ class InquiryController < ApplicationController
       #redirect_to inquiry_index_path
       redirect_to suc_inquiry_index_path
 
-    #  Thread.new{
-    #    InquiryMailer.have_new_inquiry(@inquiry).deliver
-    #    InquiryMailer.inquiry_comfirm(@inquiry).deliver
-    #  }
+      Thread.new{
+        InquiryMailer.have_new_inquiry(@inquiry).deliver
+        InquiryMailer.inquiry_comfirm(@inquiry).deliver
+      }
 
     else
       render :action => 'index'
