@@ -108,7 +108,13 @@ p.suc-back:hover a{color: #ffffff;}
 p.suc-back a{text-decoration: none;font-size: 15px;line-height: 40px;margin-left: 20px;width: 120px;height: 40px;font-weight: bold;color: #555555;}
 
 /*footer*/
-#footer{background-color: #000000; color: #616161;clear: left;height: 60px;width: 100%;}
+#footer{background-color: #000000; color: #616161;clear: left;height: 55px;width: 100%;}
 #footer a{color: #616161;}
-div.footer-content{margin: 0 auto; width: 940px;line-height: 60px;}
-div.footer-content p{float: right}
+div.footer-content{margin: 0 auto; width: 940px;height: 55px;}
+div.footer-content p{float: right;line-height: 55px;}
+div.footer-content .ul-chat-top{float: left; list-style:none; height:55px;}
+div.footer-content .li-chat-top{float:left;display: block;}
+div.footer-content .ul-chat-top li:hover {position:relative;}
+div.footer-content .ul-chat-top ul{position:absolute; left:-9999px; top:-9999px; list-style:none;}
+div.footer-content .ul-chat-top li:hover ul
+{left:0px; bottom:55px; top:auto; z-index:300;}
