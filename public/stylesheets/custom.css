@@ -1,4 +1,5 @@
 body { margin:0 auto; font-size:12px; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; line-height:1.5;}
+textarea { font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;}
 ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p { padding:0; margin:0;}
 ul { list-style:none;}
 img { border:0px;}
@@ -30,15 +31,30 @@ a:hover{color:#003366; text-decoration:underline;}
 #header .navi ul li:hover{background-color:transparent;}
 
 /*home page description words */
-div#center-down{margin-top: 40px;color: #555555}
+div#center-down{float: left;margin-top: 20px;width:940px;color: #555555;border-bottom: 1px #AAAAAA solid;padding-bottom: 20px;}
 div#center-down .down-left{float: left; width: 270px;}
 div#center-down .down-middle{float: left;width: 270px;margin-left: 70px;}
 div#center-down .down-right{float: right;width: 280px;}
 
+
+/*home page category show*/
+div#center-low{float:left;width:940px;color: #555555;margin-top: 20px;}
+div.center-low-cat{float:left;width: 600px;height: 100%;}
+div.clc-title{float: left;}
+div.clc-content,div.clc-content img{float: left;}
+div.clc-content img{padding: 3px;background-color:#555555;cursor: pointer;margin-bottom: 10px; }
+div.clc-content img:hover{background-color: #888888;}
+div.clc-content div{float:left;width: 245px;word-break: break-all;margin-left: 5px;margin-bottom: 10px;}
+/*home page fast inquiry*/
+div.center-low-inq{float:left;width: 335px;height: 100%;}
+div.cli-title{float: right;}
+div.cli-content{float: right}
+
 /*category page right for category info*/
 #cat-right{float: right;width: 240px;}
-#cat-right .cat-right-inner{padding-left: 10px;color:#616161;}
+#cat-right .cat-right-inner{padding-left: 22px;color:#616161;}
 #cat-right .cat-right-inner h2{color: #555555;}
+#cat-right .cat-fi{padding-left: 22px;color: #555555;padding-top: 20px;}
 
 /*category page left for show category's projects */
 #cat_projects {margin: 20px 0 0 0;padding: 10px 0 7px 0;width: 100%;}
@@ -65,8 +81,8 @@ div#center-down .down-right{float: right;width: 280px;}
 #inquiry-form input[type="email"]:hover {border:2px solid #555555;background-color: #f0f0f0}
 #inquiry-form input[type="tel"] {width: 289px; height: 18px;}
 #inquiry-form input[type="tel"]:hover {border:2px solid #555555;background-color: #f0f0f0}
-#inquiry_submit {margin-top:30px;font-size: 17px;font-weight: bold;color: #555555;width: 88%;height: 40px;border:2px solid #C0C0C0;border-radius:10px;}
-#inquiry_submit:hover {background-color: #616161;color: #ffffff;cursor: pointer;border: 2px solid #616161 }
+.inquiry_submit {margin-top:30px;font-size: 17px;font-weight: bold;color: #555555;width: 88%;height: 40px;border:2px solid #C0C0C0;border-radius:10px;}
+.inquiry_submit:hover {background-color: #616161;color: #ffffff;cursor: pointer;border: 2px solid #616161 }
 
 /*deal-process*/
 #deal-process{float: right;width: 50%}
@@ -107,6 +123,14 @@ p.suc-back:hover{background-color: #616161;cursor: pointer;border: 2px solid #61
 p.suc-back:hover a{color: #ffffff;}
 p.suc-back a{text-decoration: none;font-size: 15px;line-height: 40px;margin-left: 20px;width: 120px;height: 40px;font-weight: bold;color: #555555;}
 
+/*fast inquiry form*/
+input.fi_name,input.fi_email,textarea.fi_message
+{color:#616161;width: 212px;float: right;margin-bottom: 5px;}
+textarea.fi_message{height: 170px;}
+input.fi_name:hover,input.fi_email:hover,textarea.fi_message:hover {border:2px solid #555555;background-color: #f0f0f0}
+input.fi_submit{float:right;margin-top:5px;font-size: 17px;font-weight: bold;color: #555555;width: 218px;height: 40px;border:2px solid #C0C0C0;border-radius:10px;}
+input.fi_submit:hover{background-color: #616161;color: #ffffff;cursor: pointer;border: 2px solid #616161}
+
 /*footer*/
 #footer{background-color: #000000; color: #616161;clear: left;height: 55px;width: 100%;}
 #footer a{color: #616161;}
@@ -118,3 +142,6 @@ div.footer-content .ul-chat-top li:hover {position:relative;}
 div.footer-content .ul-chat-top ul{position:absolute; left:-9999px; top:-9999px; list-style:none;}
 div.footer-content .ul-chat-top li:hover ul
 {left:0px; bottom:55px; top:auto; z-index:300;}
+
+/*error message */
+#errorExplanation{border: 2px #ff0000 solid; padding: 5px;background:#EEE;color:  #555555;width: 81% }

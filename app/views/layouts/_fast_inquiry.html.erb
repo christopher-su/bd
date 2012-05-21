@@ -1,0 +1,7 @@
+<%= form_for Inquiry.new ,:url => {:action => 'create', :controller => 'inquiry' } do |f| %>
+       <%= f.error_messages %>
+       <%= f.text_field :name,:value => "Full name",:class => "fi_name" %>
+       <%= f.email_field :email,:value => "Email address",:class => "fi_email" %>
+       <%= f.text_area:desc,:value => "Message",:class => "fi_message" %>
+       <%= f.submit "Send",:class => "fi_submit"%>
+<% end %>

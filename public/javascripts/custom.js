@@ -38,9 +38,30 @@ $(document).ready(function () {
     }
     );
 
+    var tmp_fi_value;
     $("input[name^='inquiry']").click(function(){
+        tmp_fi_value = $(this).val();
         $(this).val("").css('background','white');
-    });
+    }).blur(function(){
+            if($(this).val() == "" ){
+                $(this).val(tmp_fi_value);
+            };
+    })
+
+    $("textarea[name^='inquiry']").click(function(){
+        tmp_fi_value = $(this).val();
+        $(this).val("").css('background','white');
+    }).blur(function(){
+            if($(this).val() == "" ){
+                $(this).val(tmp_fi_value);
+            };
+    })
+
+//    $("#inquiry_submit").click(function(){
+//        if($(".fi_name").val() == "Full name"){
+//            $(".fi_name").val("");
+//        }
+//    });
     
 });
 

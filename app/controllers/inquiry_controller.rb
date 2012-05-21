@@ -7,12 +7,16 @@ class InquiryController < ApplicationController
   skip_before_filter :authorize,:only => [:index,:create,:suc]
 
   def index
-    @page_title = "Inquiry Now"
+    @page_title = "Free Quote"
     @inquiry = Inquiry.new
   end
 
   def create
+    @page_title = "Free Quote"
     @inquiry = Inquiry.new(params[:inquiry])
+    @inquiry.name= "" if @inquiry.name == "Full name"
+    @inquiry.email= "" if @inquiry.email == "Email address"
+    @inquiry.desc= "" if @inquiry.desc == "Message"
     if @inquiry.save
       #redirect_to inquiry_index_path
       redirect_to suc_inquiry_index_path
@@ -23,7 +27,8 @@ class InquiryController < ApplicationController
       }
 
     else
-      render :action => 'index'
+      #redirect_to :back
+      render "index"
     end
   end
 

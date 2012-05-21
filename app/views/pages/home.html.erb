@@ -30,9 +30,8 @@
     </div>
 
     <div id="center-down">
-      <div class="center-down-inner">
         <div class="down-left">
-          <h2>Focus On Architectural Renderings</h2>
+          <h2>Focus on architectural renderings</h2>
           <p>&nbsp;&nbsp;The Brosis Design is a China based company dedicated to top architectural rendering service.
             We create outstanding solutions and top service for architects, individuals, real estate developers, interior
             designers, and builders. In the past few years, the company has finished more than 100 beautiful architectural
@@ -58,7 +57,48 @@
           </p>
         </div>
 
+    </div>
+    
+    <div id="center-low">
+      <div class="center-low-cat">
+          <div class="clc-title"><h2>BrosisDesign will help you with</h2></div>
+          <div class="clc-content">
+            <%= link_to "/categories/1" do %>
+                <%= image_tag("cat-ext.jpg",:size => "340x140",:alt => "Exterior Rendering") %>
+            <% end %>
+            <div>
+                <h5>Exterior Rendering</h5>
+                Show your project’s most fascinating exterior details,an essential starting point in visualizing any project.
+                &nbsp;&nbsp;<%= link_to "view more", "/categories/1" %>
+            </div>
+
+            <%= link_to "/categories/2" do %>
+                <%= image_tag("cat-int.jpg",:size => "340x140",:alt => "Interior Rendering") %>
+            <% end %>
+            <div>
+              <h5>Interior Rendering</h5>
+              Show every single detail of your interior spaces,virtually view your spaces long before you''re ever constructed.
+              &nbsp;&nbsp;<%= link_to "view more", "/categories/2" %>
+            </div>
+
+            <%= link_to "/categories/3" do %>
+                <%= image_tag("cat-bid.jpg",:size => "340x140",:alt => "Birds Eye views") %>
+            <% end %>
+            <div>
+              <h5>Birds Eye views</h5>
+              Show the relations between your project and its landscape.
+              &nbsp;&nbsp;<%= link_to "view more", "/categories/3" %>
+            </div>
+
+          </div>
+      </div>
+      <div class="center-low-inq">
+          <div class="cli-title"><h2>Free quote fast and easy</h2></div>
+          <div class="cli-content">
+            <%= render "layouts/fast_inquiry" %>
+          </div>
       </div>
     </div>
+
   </body>
 </html>

@@ -5,6 +5,7 @@
       Get Free Quote
     </div>
     <%= form_for @inquiry,:url => { :action => "create" } do |f| %>
+      <%= f.error_messages :header_message => "Oops! something wrong",:message => "You'll need to fix the following fields:" %>
       <ul>
         <li>
           <%= f.label :name,"* Full Name:" %>
@@ -15,7 +16,7 @@
           <%= f.email_field :email %>
         </li>
         <li>
-          <%= f.label :phone,"* Phone:" %>
+          <%= f.label :phone,"Phone:" %>
           <%= f.phone_field :phone %>
         </li>
         <li>
@@ -35,7 +36,7 @@
           <%= f.text_area:desc%>
         </li>
         <!-- submit buttom -->
-        <li><%= f.submit "Get a Quote"%></li>
+        <li><%= f.submit "Get a Quote",:class => "inquiry_submit" %></li>
       </ul>
     <% end %>
   </body>
