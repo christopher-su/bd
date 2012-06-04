@@ -65,7 +65,8 @@ div.cli-content{float: right}
 #cat_projects a span {position: absolute;padding: 16px 12px;font-size: 18px;font-weight: bold;visibility: hidden;width: 180px;height: 150px;}
 
 /*faq*/
-.faq-li{margin: 20px auto;border: 1px solid #DDD;font-size: 13px;padding: 4px 5px;word-break:break-all;border-radius:10px;background: rgba(0, 0, 0, 0.05);color: #616161;}
+.faq-li{margin: 20px auto;border: 1px solid #DDD;font-size: 13px;padding: 4px 5px;word-break:break-all;border-radius:10px;background: rgba(0, 0, 0, 0.05);color: #616161;opacity: 0.6}
+.faq-li:hover{opacity: 1}
 
 /*inquiry-form*/
 #inquiry-title {margin: 20px auto;font-size: 20px;font-weight: bold;color: #555555;}
