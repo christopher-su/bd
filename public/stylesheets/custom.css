@@ -20,6 +20,7 @@ a:hover{color:#003366; text-decoration:underline;}
 
 /*navi*/
 #header .inNow{background-color:#c42804;color: #f6f4f4;}
+#header .conNow{background-color:#3399CC;color: #f6f4f4;}
 #header .navi{margin-left: 20px;padding:0;list-style:none;}
 #header .navi{line-height:35px;height:35px;float:left;margin-bottom:1em;}
 #header .navi li{color:#555555;float:left;margin-left:8px;margin-top:35px;border-radius:10px;padding-right:10px;padding-left:10px;position:relative;}
