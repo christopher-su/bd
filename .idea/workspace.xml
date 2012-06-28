@@ -65,7 +65,7 @@
       <file leaf-file-name="inquiry_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/inquiry_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="572" selection-end="572" vertical-scroll-proportion="0.30481285">
+            <state line="27" column="40" selection-start="730" selection-end="730" vertical-scroll-proportion="0.5080214">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_fast_inquiry.html.erb" />
         <option value="$PROJECT_DIR$/app/views/inquiry/_form.html.erb" />
         <option value="$PROJECT_DIR$/public/javascripts/custom.js" />
-        <option value="$PROJECT_DIR$/app/controllers/inquiry_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
         <option value="$PROJECT_DIR$/public/lead.html" />
@@ -148,6 +147,7 @@
         <option value="$PROJECT_DIR$/app/views/faq/index.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/inquiry_controller.rb" />
       </list>
     </option>
   </component>
@@ -866,7 +866,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1022,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/inquiry_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="572" selection-end="572" vertical-scroll-proportion="0.30481285">
+        <state line="27" column="40" selection-start="730" selection-end="730" vertical-scroll-proportion="0.5080214">
           <folding />
         </state>
       </provider>

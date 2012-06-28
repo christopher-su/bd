@@ -19,13 +19,13 @@ class InquiryController < ApplicationController
     @inquiry.desc= "" if @inquiry.desc == "Message"
     if @inquiry.save
       #redirect_to inquiry_index_path
-      redirect_to suc_inquiry_index_path
+
 
       Thread.new{
         InquiryMailer.have_new_inquiry(@inquiry).deliver
         InquiryMailer.inquiry_comfirm(@inquiry).deliver
       }
-
+      redirect_to suc_inquiry_index_path
     else
       #redirect_to :back
       render "index"
