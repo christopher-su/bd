@@ -39,29 +39,6 @@ module Brosis
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
-
-
-    #config.action_mailer.delivery_method = :smtp
-    ## Gmail SMTP server setup
-    #config.action_mailer.smtp_settings = {
-    #    :address => "smtp.gmail.com",
-    #    :enable_starttls_auto => true,
-    #    :port => 587,
-    #    :domain => 'gmail.com',
-    #    :authentication => :plain,
-    #    :user_name => 'BrosisDesign.info@gmail.com',
-    #    :password => 'google_pass'
-    #}
   end
 end
 
-
-#ActionMailer::Base.smtp_settings = {
-#  :address              => "smtp.gmail.com",
-#  :port                 => 587,
-#  :domain               => "gmail.com",
-#  :user_name            => "BrosisDesign.info@gmail.com",
-#  :password             => "google_pass",
-#  :authentication       => "plain",
-#  :enable_starttls_auto => true
-#}
