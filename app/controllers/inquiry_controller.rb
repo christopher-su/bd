@@ -21,13 +21,13 @@ class InquiryController < ApplicationController
       #redirect_to inquiry_index_path
 
 
-      Thread.new{
+      #Thread.new{
         x = InquiryMailer.have_new_inquiry(@inquiry).deliver
         p 'xxxxxxxxxxxxxxxxxxxxxx'
         p x
         p 'xxxxxxxxxxxxxxxxxxxxxx'
         InquiryMailer.inquiry_comfirm(@inquiry).deliver
-      }
+      #}
       redirect_to suc_inquiry_index_path
     else
       #redirect_to :back
