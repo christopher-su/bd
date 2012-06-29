@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="inquiry_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="inquiry_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/inquiry_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="11" selection-start="777" selection-end="777" vertical-scroll-proportion="0.4581105">
+            <state line="29" column="11" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,7 +74,25 @@
       <file leaf-file-name="setup_mail.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="51" selection-start="540" selection-end="545" vertical-scroll-proportion="0.0">
+            <state line="20" column="16" selection-start="340" selection-end="673" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="45" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-6.24">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="81" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.6511194">
               <folding />
             </state>
           </provider>
@@ -98,24 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="24" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unicorn.conf.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/unicorn.conf.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -132,7 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/javascripts/custom.js" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
         <option value="$PROJECT_DIR$/public/lead.html" />
@@ -146,8 +145,9 @@
         <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/mailers/inquiry_mailer.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/setup_mail.rb" />
         <option value="$PROJECT_DIR$/app/controllers/inquiry_controller.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/setup_mail.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -1027,13 +1027,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="1374" selection-end="1374" vertical-scroll-proportion="-28.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1044,13 +1037,6 @@
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="51" selection-start="718" selection-end="771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1118,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="51" selection-start="540" selection-end="545" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/inquiry_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
@@ -1134,7 +1113,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/inquiry_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="777" selection-end="777" vertical-scroll-proportion="0.4581105">
+        <state line="29" column="11" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="340" selection-end="673" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="45" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-6.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="81" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.6511194">
           <folding />
         </state>
       </provider>
