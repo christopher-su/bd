@@ -1,5 +1,6 @@
 class InquiryMailer < ActionMailer::Base
-  default :from => "BrosisDesign-webmaster<brosisdesign.webmaster@gmail.com>"
+ # default :from => "BrosisDesign-webmaster<brosisdesign.webmaster@gmail.com>"
+ default :from => "BrosisDesign-webmaster<BrosisDesign.info@gmail.com>"
 
   def have_new_inquiry(inquiry)
     @inquiry = inquiry
