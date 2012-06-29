@@ -41,17 +41,17 @@ module Brosis
     config.filter_parameters += [:password]
 
 
-    config.action_mailer.delivery_method = :smtp
-    # Gmail SMTP server setup
-    config.action_mailer.smtp_settings = {
-        :address => "smtp.gmail.com",
-        :enable_starttls_auto => true,
-        :port => 587,
-        :domain => 'gmail.com',
-        :authentication => :plain,
-        :user_name => 'BrosisDesign.info@gmail.com',
-        :password => 'google_pass'
-    }
+    #config.action_mailer.delivery_method = :smtp
+    ## Gmail SMTP server setup
+    #config.action_mailer.smtp_settings = {
+    #    :address => "smtp.gmail.com",
+    #    :enable_starttls_auto => true,
+    #    :port => 587,
+    #    :domain => 'gmail.com',
+    #    :authentication => :plain,
+    #    :user_name => 'BrosisDesign.info@gmail.com',
+    #    :password => 'google_pass'
+    #}
   end
 end
 
