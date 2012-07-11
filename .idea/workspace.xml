@@ -38,7 +38,7 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="119" selection-start="831" selection-end="831" vertical-scroll-proportion="0.4019231">
+            <state line="38" column="96" selection-start="1200" selection-end="1200" vertical-scroll-proportion="-1.5942308">
               <folding />
             </state>
           </provider>
@@ -984,7 +984,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1142,7 +1142,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="119" selection-start="831" selection-end="831" vertical-scroll-proportion="0.4019231">
+        <state line="38" column="96" selection-start="1200" selection-end="1200" vertical-scroll-proportion="-1.5942308">
           <folding />
         </state>
       </provider>
