@@ -45,6 +45,8 @@ div.clc-title{float: left;}
 div.clc-content,div.clc-content img{float: left;}
 div.clc-content img{padding: 3px;background-color:#555555;cursor: pointer;margin-bottom: 10px;opacity:0.8 }
 div.clc-content img:hover{background-color: #888888;opacity:1}
+div.clc-content a{text-decoration: none;color:#555555 }
+div.clc-content a:hover{color:#999999 }
 div.clc-content div{float:left;width: 245px;word-break: break-all;margin-left: 5px;margin-bottom: 10px;}
 
 /*home page fast inquiry*/

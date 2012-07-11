@@ -34,7 +34,7 @@
     <div id="center-down">
         <div class="down-left">
           <h2>Focus on architectural renderings</h2>
-          <p>&nbsp;&nbsp;The Brosis Design is a China based company dedicated to top architectural rendering service.
+          <p>&nbsp;&nbsp;The Brosis Design is a China based company dedicated to top architectural rendering service with real cheap rendering price.
             We create outstanding solutions and top service for architects, individuals, real estate developers, interior
             designers, and builders. In the past few years, the company has finished more than 100 beautiful architectural
             renderings. Our products have been highly acknowledged by the market to be very powerful marketing and sales tools.
@@ -69,27 +69,24 @@
                 <%= image_tag("cat-ext.jpg",:size => "340x140",:alt => "Exterior Rendering") %>
             <% end %>
             <div>
-                <h5>Exterior Rendering</h5>
+              <%= link_to "/categories/1" do %><h5>3D Exterior Rendering</h5><% end %>
                 Show your project’s most fascinating exterior details,an essential starting point in visualizing any project.
-                &nbsp;&nbsp;<%= link_to "view more", "/categories/1" %>
             </div>
 
             <%= link_to "/categories/2" do %>
                 <%= image_tag("cat-int.jpg",:size => "340x140",:alt => "Interior Rendering") %>
             <% end %>
             <div>
-              <h5>Interior Rendering</h5>
+              <%= link_to "/categories/2" do %><h5>3D Interior Rendering</h5><% end %>
               Show every single detail of your interior spaces,virtually view your spaces long before you''re ever constructed.
-              &nbsp;&nbsp;<%= link_to "view more", "/categories/2" %>
             </div>
 
             <%= link_to "/categories/3" do %>
                 <%= image_tag("cat-bid.jpg",:size => "340x140",:alt => "Birds Eye views") %>
             <% end %>
             <div>
-              <h5>Birds Eye views</h5>
+              <%= link_to "/categories/3" do %><h5>3D Birds Eye view</h5><% end %>
               Show the relations between your project and its landscape.
-              &nbsp;&nbsp;<%= link_to "view more", "/categories/3" %>
             </div>
 
           </div>
