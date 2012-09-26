@@ -1,7 +1,11 @@
 <div id="header">
+  <!--<div id="header-top" style="background-color: #999999;height: 30px;">-->
+
+  <!--</div>-->
   <div id="header-content">
   <div class="header_logo">
-    BrosisDesign
+    <!--BrosisDesign-->
+    <%= link_to "BrosisDesign","/pages/home" %>
   </div>
 
   <ul class="navi">
@@ -26,7 +30,7 @@
             <li>FAQ</li>
     <% end %>
 
-    <a href="mailto:sales@brosisdesign.com" target="_blank">
+    <a>
       <li class="conNow" style="color: #ffffff;">Contact Us</li>
     </a>
 
@@ -35,5 +39,35 @@
     <% end %>
 
   </ul>
+  </div>
+  <div id="header-bottom">
+    <ul>
+      <li>
+        <a href="skype:brosisdesign.sales?chat">
+          <%= image_tag("s-white.png", :mouseover => "/images/s-green.png",:size => "29x29",:alt => "Chat With Skype") %>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/brosisdesign.service" target="_blank">
+          <%= image_tag("f-white.png", :mouseover => "/images/f-green.png",:size => "29x29",:alt => "Follow Us On FaceBook") %>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/BrosisDesign" target="_blank">
+          <%= image_tag("t-white.png", :mouseover => "/images/t-green.png",:size => "29x29",:alt => "Follow Us On Twitter") %>
+        </a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/117005767954003392079/posts/p/pub" target="_blank">
+          <%= image_tag("g-white.png", :mouseover => "/images/g-green.png",:size => "29x29",:alt => "Plus Us") %>
+        </a>
+      </li>
+      <li style="margin-left: 30px;">
+          <%= image_tag("mail-white.png", :size => "30x30",:alt => "Mail Us") %>
+      </li>
+      <li style="margin-left: 1px">
+         <p style="line-height: 30px;color:white;font-weight: bold;font-size: 17px;">sales@brosisdesign.com</p>
+      </li>
+    </ul>
   </div>
 </div>

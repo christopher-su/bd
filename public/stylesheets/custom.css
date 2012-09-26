@@ -8,15 +8,19 @@ a:hover{color:#003366; text-decoration:underline;}
 
 .container{width:100%;margin:0 auto;}
 
-#header{height:100px;width: 100%;}
-#header-content{margin: 0 auto;width: 940px;height: 90px; border-bottom: 1px #AAAAAA solid;}
+#header{height:105px;width: 100%;}
+#header-content{margin: 0 auto;width: 940px;height: 90px;border-bottom: 1px solid #666666 }
+#header-bottom{margin: 0 auto;width: 940px;height: 30px;background-color:#666666; padding: 5px 0 5px 0}
+#header-bottom ul {float: right;}
+#header-bottom ul li{margin-right: 10px;float: left;margin-left: 10px}
 #center{background: #f0f0f0 url(../images/background-main.gif) repeat -70% 0;float: left;width: 100%;}
 #center-inner {padding: 0 0 30px 0;background: url(../images/big-fade.png) repeat-x -70% 0;float: left;width: 100%;}
 #center-inner-content{margin: 0 auto; width: 940px;}
 
 /*logo*/
-#header .header_logo{line-height:100px;font-size:40px;color:#555555;float:left;font-family:"Impact";margin: 0;}
-#header .header_logo:hover{color:#C0C0C0;cursor:pointer;}
+#header .header_logo{line-height:100px;font-size:40px;float:left;font-family:"Impact";margin: 0;}
+#header .header_logo a{text-decoration: none;color:#555555;}
+#header .header_logo a:hover{color:#C0C0C0;cursor:pointer;}
 
 /*navi*/
 #header .inNow{background-color:#c42804;color: #f6f4f4;}
@@ -141,11 +145,11 @@ input.fi_submit:hover{background-color: #616161;color: #ffffff;cursor: pointer;b
 #footer a{color: #616161;}
 div.footer-content{margin: 0 auto; width: 940px;height: 55px;}
 div.footer-content p{float: right;line-height: 55px;}
-div.footer-content .ul-chat-top{float: left; list-style:none; height:55px;}
-div.footer-content .li-chat-top{float:left;display: block;}
-div.footer-content .ul-chat-top li:hover {position:relative;}
-div.footer-content .ul-chat-top ul{position:absolute; left:-9999px; top:-9999px; list-style:none;}
-div.footer-content .ul-chat-top li:hover ul
+/*div.footer-content .ul-chat-top{float: left; list-style:none; height:55px;}*/
+/*div.footer-content .li-chat-top{float:left;display: block;}*/
+/*div.footer-content .ul-chat-top li:hover {position:relative;}*/
+/*div.footer-content .ul-chat-top ul{position:absolute; left:-9999px; top:-9999px; list-style:none;}*/
+/*div.footer-content .ul-chat-top li:hover ul*/
 {left:0px; bottom:55px; top:auto; z-index:300;}
 
 /*error message */

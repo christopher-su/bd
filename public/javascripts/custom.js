@@ -57,6 +57,21 @@ $(document).ready(function () {
             };
     })
 
+    $("#header-bottom").hide();
+
+    $(".conNow").toggle(
+        function () {
+            $("#header").css({"height":"135px"});
+            $("#header-content").css({"border":"none"});
+            $("#header-bottom").fadeIn("slow");
+        },
+        function () {
+            $("#header").css({"height":"105px"});
+            $("#header-content").css({"border-bottom":"1px solid #666666"});
+            $("#header-bottom").fadeOut("fast");
+        }
+    );
+
 //    $("#inquiry_submit").click(function(){
 //        if($(".fi_name").val() == "Full name"){
 //            $(".fi_name").val("");
