@@ -35,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="49" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.63268894">
+            <state line="68" column="49" selection-start="2331" selection-end="2381" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/faq/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="84" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.4731978">
               <folding />
             </state>
           </provider>
@@ -96,13 +105,13 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/controllers/inquiry_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/setup_mail.rb" />
-        <option value="$PROJECT_DIR$/app/views/faq/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/mailers/inquiry_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
         <option value="$PROJECT_DIR$/public/javascripts/custom.js" />
+        <option value="$PROJECT_DIR$/app/views/faq/index.html.erb" />
       </list>
     </option>
   </component>
@@ -957,7 +966,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1054,11 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/faq/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="1544" selection-end="1574" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="40" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" />
@@ -1121,7 +1125,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="49" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.63268894">
+        <state line="68" column="49" selection-start="2331" selection-end="2381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/faq/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="84" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.4731978">
           <folding />
         </state>
       </provider>
