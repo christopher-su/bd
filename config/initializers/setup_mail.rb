@@ -8,11 +8,11 @@ ActionMailer::Base.smtp_settings = {
   #:enable_starttls_auto => true
 
 
-    :address              => "smtp.ym.163.com",
+    :address              => "smtp.exmail.qq.com",
     :port                 => 25,
-    :domain               => "ym.163.com",
+    :domain               => "exmail.qq.com",
     :user_name            => "system@brosisdesign.com",
-    :password             => "sc_pass",
-    :authentication       => "plain",
+    :password             => "sys_141242",
+    :authentication       => "login",
     :enable_starttls_auto => true
 }
